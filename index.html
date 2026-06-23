@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>genesis bar </title>
+</head>
+<body>
+<header>
+<h1> hola buenass
+		<div class="contenedor">
+			<h1>genesis bar </h1>
+			<p>sistemas de comandas</p>
+			<form action="pedido.php" method="post">
+				<label>producto</label>
+				<select name="producto">
+				<option value="sushi">sushi</option>
+				<option value="pizza">pizza</option>
+				<option value="empanadas">empanadas</option>	
+				</select>	
+				<label>cantidad</label>
+				<input type="number" name="cantidad" min="1" required>
+				<button type="submit">registrar pedido</button>
+			</form>
+		</div>	
+</body>
+</html>
